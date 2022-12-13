@@ -1,0 +1,53 @@
+:root {
+  --main-font-family: "Playfair Display", serif;
+  --second-font-family: "Poppins", sans-serif;
+  --main-background-color: #f9f7fe;
+  --buttons-background-color: #6c63ff;
+}
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-family: var(--second-font-family);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.btn-branding-contact {
+  background-color: var(--buttons-background-color);
+  color: white;
+  padding: 15px 20px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: var(--second-font-family);
+}
+
+.container-about-section {
+  padding: 160px 20px;
+  margin: 0 26px;
+}
+.about-intro {
+  font-family: var(--main-font-family);
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-explanation {
+  font-family: var(--second-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+.about-section {
+  padding: 0 30px;
+}
+.about-page-photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
